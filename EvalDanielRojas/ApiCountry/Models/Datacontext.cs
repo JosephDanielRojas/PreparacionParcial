@@ -12,5 +12,7 @@ namespace ApiCountry.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ApiCountry.Models.Country> Countries { get; set; }
     }
 }
